@@ -21,6 +21,14 @@ Here is an example of the XHTML code necessary to incorporate the CSS files:
 <link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
 </head>
 
+RTL Support CSS :
+
+<head>
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/text-RTL.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/960-RTL.css" />
+</head>
+
 It is worth noting that these styles do not automatically make up a finished
 site design. They are simply a starting point, ideally for rapid prototyping
 or as a basis for creating your own designs. You should not feel constrained
